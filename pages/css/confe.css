@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?família=Fraunces:opsz,wght@9.. 144.300&family=Jacques+Francois&family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 85%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: 0 auto;
+
+}
+
+.Logo_comp{
+    width: 200px;
+    
+}
+
+.logo_mobile{
+    display: none;
+    width: 200px;
+}
+
+.nav{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap:32px;
+    list-style: none;
+}
+
+.nav-list a{
+    color: #785E6C;
+    text-decoration: none;
+    margin: 40px;
+    padding-block: 16px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+li a:hover{
+    color: #493841;
+    font-weight: bolder;
+}
+
+.button_whastapp{
+    background-color: rgb(35, 187, 35);
+    width: 125px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #785E6C;
+}
+
+.hamburger{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #FE00DA;
+    cursor: pointer;
+    
+}
+
+
+.hamburger::before,
+.hamburger::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #FE00DA;
+    margin-top: 5px;
+}
+
+#separador{
+    background: linear-gradient(90deg, rgba(254, 244, 0, 0.4), rgba(254, 0, 173, 1), rgba(254, 244, 0, 0.4));
+    width: 100%;
+    height: 10px;
+}
+
+.container_principal{
+    background-color:#FFF9FD;
+    width: 100%;
+    height: 400px;
+}
+
+.conteudo_confeccao{
+    text-align: center;
+    font-weight: none;
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    font-size: 27px;
+    width: 60%;
+    color: #785E6C;
+    margin-left: 270px;
+}
+
+.laco_rosa{
+    margin-left: 600px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container_finale{
+    background-color:#FE00AD;
+    width: 100%;
+    height: 290px;
+    position: absolute;
+    
+}
+
+
+.navegacao_finale{
+    top: 300px;
+    display: flex;
+    margin: 60px 120px 120px 60px;
+    justify-content: space-between;
+}
+
+.nav_footer, .nav-list_footer, .linha, .line{
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+.button_whastapp_2{
+    padding: 3px;
+    background-color: rgb(35, 187, 35);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: #493841;
+}
+
+.form_pagamentos, .form_card{
+    font-size: 17px;
+    color: #fff;
+    left: 0;
+}
+
+.cartoes{
+    width: 250px;
+}
+
+.redes_sociais{
+    font-size: 17px;
+    color: #fff;
+}
+
+.fa-instagram{
+    transform: scale(1.2);
+
+    display: flex;
+    align-items: center;
+    
+}
+
+@media (max-width:1107px){
+
+    header{
+        width: 100%;
+        height: 120px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .Logo_comp{
+        display: block;
+    }
+    
+    .logo_mobile{
+        display: none;
+    }
+    
+    .hamburger{
+        display: none;
+        z-index: 1;
+    }
+
+
+    .nav-list a li{
+        font-size: 14px;
+        width: 100%;
+        
+        
+    }
+    .laco_rosa{
+        margin-left: 500px;
+    }
+
+    .conteudo_confeccao{
+
+    }
+
+    
+}
+
+@media (max-width:960px){
+
+    header{
+        width: 100%;
+        height: 100px;
+    }
+
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block
+
+    }
+    
+    .hamburger{
+        display: none;
+        z-index: 1;
+    }
+
+
+    .nav-list a li{
+        font-size: 10px;
+        width: 100%;
+        
+        
+    }
+       
+    .imagem_principal{
+        margin-left: 190px;
+    }
+
+
+    .tex_descricion{
+        margin-left: 200px;
+    }
+}
+
+
+@media (max-width:830px){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+        
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+    .imagem_principal{
+        margin-left: 120px;
+    }
+
+
+    .tex_descricion{
+        margin-left: 170px;
+        font-size: 19px;
+    }
+   
+}
+
+
+
+
+
+@media (max-width:760px){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+    .imagem_principal{
+        margin-left: 90px;
+    }
+
+
+    .tex_descricion{
+        margin-left: 150px;
+        font-size: 19px;
+    }
+   
+
+}
+
+
+@media (max-width:560px){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+    .imagem_principal{
+        margin-left: 80px;
+        width: 400px;
+    }
+
+
+    .tex_descricion{
+        margin-left: 110px;
+        font-size: 23px;
+    }
+   
+    .container_finale{
+        
+        height: 550px;
+        
+    }
+    
+    
+    .navegacao_finale{
+        top: 300px;
+        display: flex;
+        margin: 70px 120px 120px 40px;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav_footer, .nav-list_footer, .linha, .line{
+        list-style: none;
+        text-decoration: none;
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .button_whastapp_2{
+        padding: 3px;
+        background-color: rgb(35, 187, 35);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 17px;
+        color: #493841;
+    }
+    
+    .form_pagamentos, .form_card{
+        font-size: 17px;
+        color: #fff;
+        left: 0;
+    }
+    
+    .cartoes{
+        width: 250px;
+    }
+    
+    .redes_sociais{
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .fa-instagram{
+        transform: scale(1.1);
+    
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 460px ){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+    .imagem_principal{
+        margin-left: 40px;
+        width: 400px;
+    }
+
+
+    .tex_descricion{
+        margin-left: 90px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 360px ){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+
+    .imagem_principal{
+        margin-left: 60px;
+        width: 250px;
+    }
+
+
+    .tex_descricion{
+        margin-left: 70px;
+        font-size: 21px;
+    }
+}

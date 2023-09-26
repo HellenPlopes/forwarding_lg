@@ -1,0 +1,1851 @@
+@import url('https://fonts.googleapis.com/css2?família=Fraunces:opsz,wght@9.. 144.300&family=Jacques+Francois&family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 85%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: 0 auto;
+
+}
+
+.Logo_comp{
+    width: 200px;
+    
+}
+
+.logo_mobile{
+    display: none;
+    width: 200px;
+}
+
+.nav{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap:32px;
+    list-style: none;
+}
+
+.nav-list a{
+    color: #785E6C;
+    text-decoration: none;
+    margin: 40px;
+    padding-block: 16px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+li a:hover{
+    color: #493841;
+    font-weight: bolder;
+}
+
+.button_whastapp{
+    background-color: rgb(35, 187, 35);
+    width: 125px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #785E6C;
+}
+
+.hamburger{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #FE00DA;
+    cursor: pointer;
+    
+}
+
+
+.hamburger::before,
+.hamburger::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #FE00DA;
+    margin-top: 5px;
+}
+
+#separador{
+    background: linear-gradient(90deg, rgba(254, 244, 0, 0.4), rgba(254, 0, 173, 1), rgba(254, 244, 0, 0.4));
+    width: 100%;
+    height: 10px;
+}
+
+
+.container_principal{
+    background-color:#FFF9FD;
+    width: 100%;
+    height: 320px;
+}
+
+.tex_1{
+    align-items: center;
+    font-weight: none;
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    font-size: 29px;
+    padding:30px 0px 0px ;
+    color: #785E6C;
+}
+
+
+.out_color{
+    align-items: center;
+    font-weight: none;
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    font-size: 30px;
+    padding:0px 0px 20px ;
+    color: #B82899;
+}
+
+.tex_1_p{
+    text-align: center;
+    font-weight: none;
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    font-size: 27px;
+    width: 60%;
+    color: #785E6C;
+    margin-left: 270px;
+}
+
+.out_color_2{
+    text-align: center;
+    font-weight: none;
+    display: flex;
+    justify-content: center;
+    font-style: none;
+    font-size: 27px;
+    width: 60%;
+    color: #FEE500;
+    margin-left: 270px;
+}
+
+.tabelas{
+    padding: 30px;
+    margin:0px 10px 0px 10px;
+    columns: 3;
+    justify-content: center;
+    display: flex;
+}
+
+.caminhao_1{
+    margin-inline: 30px;
+}
+
+.icon-caminhao{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.informativos_1{
+    color: #785E6C;
+
+}
+
+.real_2{
+    margin-inline: 30px;
+}
+
+.icon-real{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.informativos_2{
+    color: #785E6C;
+}
+
+.cartao_3{
+    margin-inline: 30px;
+}
+
+.icon-cartao{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.informativos_3{
+    color: #785E6C;
+}
+
+.container_segundario{
+    background-color:#FE00AD;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+
+.gotas{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+
+.classifica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    bottom: 150px;
+    color: #fff;
+    
+}
+
+
+.butoes {
+    height: 120px;
+    width: 100px;
+    display: flex;
+    gap: 100px;
+    margin: 120px 900px 0px 300px;
+    position: absolute;
+    cursor: pointer;
+    bottom: 150px;
+    
+}
+
+.button_laco,
+.button_tiara,
+.button_bolsa,
+.button_diverso {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.icon_laco,
+.icon_tiara,
+.icon_bolsa,
+.icon_crie {
+    width: 100px;
+    cursor: pointer;
+    
+}
+
+.text_name1,
+.text_name2,
+.text_name3,
+.text_name4 {
+    color: #785E6C;
+    cursor: pointer;
+}
+
+.caminho_direto{
+    text-decoration: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bandeira{
+    
+    display: flex;
+    top:20px;
+    margin: 50px 900px 10px 482px;
+    position: relative;
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #B82899;
+    
+}
+
+
+.text_efett{
+    justify-content: center;
+    top: 10px;
+    position: relative;
+    left: 110px;
+    color: #fff;
+    outline: none;
+}
+
+
+.container_terceiro{
+    background-color:#FFF9FD;
+    width: 100%;
+    height: 400px;
+    columns: 2;
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    background-color: #ffcff0;
+    width: 500px;
+    height: 250px;
+    margin: 90px 0px 0px 90px;
+    border-radius: 20px;
+}
+
+form{
+    font-size: 18px;
+    color:#493841;
+    align-items: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 40px;
+
+}
+
+.chama_client{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #785E6C;
+}
+
+.name_form{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.email_form{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.name_form_dig{
+    border: none;
+    outline: none;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.email_form_dig{
+    border: none;
+    outline: none;
+    width: 320px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.button_enviar{
+    padding: 5px;
+    width: 100px;
+    background-color: #B82899;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgba(167, 149, 149, 0.5);
+}
+
+.imagem_e_mensagem{
+    margin: 90px 0px 0px 30px;
+}
+
+.image_girl{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mensagem_agradecimento{
+    color: #B82899;
+    width: 450px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.container_finale{
+    background-color:#FE00AD;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    
+}
+
+
+.navegacao_finale{
+    top: 300px;
+    display: flex;
+    margin: 90px 120px 120px 60px;
+    justify-content: space-between;
+}
+
+.nav_footer, .nav-list_footer, .linha, .line{
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+.button_whastapp_2{
+    padding: 3px;
+    background-color: rgb(35, 187, 35);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: #493841;
+}
+
+.form_pagamentos, .form_card{
+    font-size: 17px;
+    color: #fff;
+    left: 0;
+}
+
+.cartoes{
+    width: 250px;
+}
+
+.redes_sociais{
+    font-size: 17px;
+    color: #fff;
+}
+
+.fa-instagram{
+    transform: scale(1.2);
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.direitos{
+    background-color: #FE00AD;
+    color: #ffffff;
+}
+
+span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+@media (max-width:1107px){
+
+    header{
+        width: 100%;
+        height: 120px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .Logo_comp{
+        display: block;
+    }
+    
+    .logo_mobile{
+        display: none;
+    }
+    
+    .hamburger{
+        display: none;
+        z-index: 1;
+    }
+
+
+    .nav-list a li{
+        font-size: 14px;
+        width: 100%;
+        
+        
+    }
+    
+    .container_principal{
+        height: 300px;
+        width: 100%;
+        
+    }
+
+    .tex_1_p{
+       
+        font-size: 25px;
+        width: 70%;
+        color: #785E6C;
+        margin-left: 180px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .out_color_2{
+        font-size: 25px;
+        width: 70%;
+        color: #FEE500;
+        margin-left: 180px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+    .informativos_1,.informativos_2,.informativos_3{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_segundario{
+        height: 400px;
+    }
+
+    .gotas{
+        
+        width: 100%;
+        height: 200px;
+    }
+
+    .butoes{
+        height: 120px;
+        width: 100px;
+        display: flex;
+        gap: 100px;
+        margin: 120px 10px 0px 200px;
+        position: absolute;
+        cursor: pointer;
+        bottom: 150px;
+    }
+
+
+    .container_terceiro{
+        background-color:#FFF9FD;
+        width: 100%;
+        height: 400px;
+        columns: 2;
+    }
+    
+    .chama_client{
+        font-size: 14px;
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: center;
+        background-color: #ffcff0;
+        width: 90%;
+        height: 250px;
+        margin: 90px 0px 0px 30px;
+        border-radius: 20px;
+    }
+
+    .email_form_dig, .name_form_dig{
+        width: 300px;
+    }
+    
+
+    .imagem_e_mensagem{
+        display: block;
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .container_finale{
+        width: 100%;
+        height: 300px;
+        
+        
+    }
+    
+    
+    
+}
+
+@media (max-width:960px){
+
+    header{
+        width: 100%;
+        height: 100px;
+    }
+
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: none;
+
+    }
+    
+    .hamburger{
+        display: none;
+        z-index: 1;
+    }
+
+
+    .nav-list a li{
+        font-size: 10px;
+        width: 100%;
+        
+        
+    }
+    
+    .container_principal{
+        height: 300px;
+        width: 100%;
+        
+    }
+
+    .tex_1_p{
+       
+        font-size: 25px;
+        width: 70%;
+        color: #785E6C;
+        margin-left: 130px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .out_color_2{
+        font-size: 25px;
+        width: 70%;
+        color: #FEE500;
+        margin-left: 130px;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .informativos_1,.informativos_2,.informativos_3{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_segundario{
+        height: 400px;
+    }
+
+    .gotas{
+        
+        width: 100%;
+        height: 200px;
+    }
+
+    .butoes{
+        height: 120px;
+        width: 100px;
+        display: flex;
+        gap: 100px;
+        margin: 120px 10px 0px 120px;
+        position: absolute;
+        cursor: pointer;
+        bottom: 150px;
+    }
+
+
+    .container_terceiro{
+        background-color:#FFF9FD;
+        width: 100%;
+        height: 400px;
+        columns: 2;
+    }
+    
+    .chama_client{
+        font-size: 14px;
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: center;
+        background-color: #ffcff0;
+        width: 90%;
+        height: 250px;
+        margin: 90px 0px 0px 20px;
+        border-radius: 20px;
+    }
+
+    .email_form_dig, .name_form_dig{
+        width: 300px;
+    }
+    
+
+    .imagem_e_mensagem{
+        display: block;
+    }
+
+    .mensagem_agradecimento{
+        width: 410px;
+       
+
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .container_finale{
+        width: 100%;
+        height: 300px;
+    }
+    
+    
+    
+}
+
+
+@media (max-width:830px){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+        
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+
+    .container_principal{
+        height: 300px;
+        width: 100%;
+        
+    }
+
+    .tex_1_p{
+       
+        font-size: 20px;
+        width: 60%;
+        color: #785E6C;
+        margin-left: 170px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .out_color_2{
+        font-size: 23px;
+        width: 60%;
+        color: #FEE500;
+        margin-left: 170px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabelas{
+        padding: 30px;
+        margin:0px 10px 0px 10px;
+        justify-content:center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .informativos_1,.informativos_2,.informativos_3{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_segundario{
+        height: 700px;
+    }
+
+    .gotas{
+        
+        width: 1000px;
+        height: 200px;
+    }
+
+    .butoes{
+        height: 120px;
+        width: 200px;
+        display: flex;
+        gap: 10px;
+        margin: 0px 0px 0px 300px;
+        flex-direction: column;
+        cursor: pointer;
+        bottom: 450px;
+    }
+
+
+    .container_terceiro{
+        background-color:#FFF9FD;
+        width: 100%;
+        height: 400px;
+        columns: 1;
+    }
+    
+    .chama_client{
+        font-size: 14px;
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: center;
+        background-color: #ffcff0;
+        width: 90%;
+        height: 250px;
+        margin: 90px 0px 0px 40px;
+        border-radius: 20px;
+    }
+
+    .email_form_dig, .name_form_dig{
+        width: 300px;
+    }
+    
+
+    .imagem_e_mensagem{
+        display: none;
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .container_finale{
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        
+    }
+    
+    
+    .navegacao_finale{
+        top: 300px;
+        display: flex;
+        margin: 70px 120px 120px 40px;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+   
+}
+
+
+
+
+
+@media (max-width:760px){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+
+    .container_principal{
+        height: 400px;
+        width: 100%;
+        
+    }
+
+    .tex_1_p{
+       
+        font-size: 20px;
+        width: 60%;
+        color: #785E6C;
+        margin-left: 150px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .out_color_2{
+        font-size: 23px;
+        width: 60%;
+        color: #FEE500;
+        margin-left: 150px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabelas{
+        padding: 30px;
+        margin:0px 10px 0px 10px;
+        justify-content:center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .informativos_1,.informativos_2,.informativos_3{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_segundario{
+        height: 700px;
+    }
+
+    .gotas{
+        
+        width: 1000px;
+        height: 200px;
+    }
+
+    .butoes{
+        height: 120px;
+        width: 200px;
+        display: flex;
+        gap: 10px;
+        margin: 0px 0px 0px 260px;
+        flex-direction: column;
+        cursor: pointer;
+        bottom: 450px;
+    }
+
+
+    .container_terceiro{
+        background-color:#FFF9FD;
+        width: 100%;
+        height: 400px;
+        columns: 1;
+    }
+    
+    .chama_client{
+        font-size: 14px;
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: center;
+        background-color: #ffcff0;
+        width: 90%;
+        height: 250px;
+        margin: 90px 0px 0px 40px;
+        border-radius: 20px;
+    }
+
+    .email_form_dig, .name_form_dig{
+        width: 300px;
+    }
+    
+
+    .imagem_e_mensagem{
+        display: none;
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .container_finale{
+        background-color:#FE00AD;
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        
+    }
+    
+    
+    .navegacao_finale{
+        top: 300px;
+        display: flex;
+        margin: 70px 120px 120px 40px;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav_footer, .nav-list_footer, .linha, .line{
+        list-style: none;
+        text-decoration: none;
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .button_whastapp_2{
+        padding: 3px;
+        background-color: rgb(35, 187, 35);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 17px;
+        color: #493841;
+    }
+    
+    .form_pagamentos, .form_card{
+        font-size: 17px;
+        color: #fff;
+        left: 0;
+    }
+    
+    .cartoes{
+        width: 250px;
+    }
+    
+    .redes_sociais{
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .fa-instagram{
+        transform: scale(1.1);
+    
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+
+@media (max-width:560px){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+
+    .container_principal{
+        height: 400px;
+        width: 100%;
+        
+    }
+
+    .tex_1_p{
+       
+        font-size: 20px;
+        width: 70%;
+        color: #785E6C;
+        margin-left: 90px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .out_color_2{
+        font-size: 23px;
+        width: 70%;
+        color: #FEE500;
+        margin-left: 90px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabelas{
+        padding: 30px;
+        margin:0px 10px 0px 10px;
+        justify-content:center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .informativos_1,.informativos_2,.informativos_3{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_segundario{
+        height: 700px;
+    }
+
+    .gotas{
+        
+        width: 1000px;
+        height: 200px;
+    }
+
+    .butoes{
+        height: 120px;
+        width: 200px;
+        display: flex;
+        gap: 10px;
+        margin: 0px 0px 0px 160px;
+        flex-direction: column;
+        cursor: pointer;
+        bottom: 450px;
+    }
+
+
+    .container_terceiro{
+        background-color:#FFF9FD;
+        width: 100%;
+        height: 400px;
+        columns: 1;
+    }
+    
+    .chama_client{
+        font-size: 14px;
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: center;
+        background-color: #ffcff0;
+        width: 90%;
+        height: 250px;
+        margin: 90px 0px 0px 30px;
+        border-radius: 20px;
+    }
+
+    .email_form_dig, .name_form_dig{
+        width: 300px;
+    }
+    
+
+    .imagem_e_mensagem{
+        display: none;
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .container_finale{
+        background-color:#FE00AD;
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        
+    }
+    
+    
+    .navegacao_finale{
+        top: 300px;
+        display: flex;
+        margin: 70px 120px 120px 40px;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav_footer, .nav-list_footer, .linha, .line{
+        list-style: none;
+        text-decoration: none;
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .button_whastapp_2{
+        padding: 3px;
+        background-color: rgb(35, 187, 35);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 17px;
+        color: #493841;
+    }
+    
+    .form_pagamentos, .form_card{
+        font-size: 17px;
+        color: #fff;
+        left: 0;
+    }
+    
+    .cartoes{
+        width: 250px;
+    }
+    
+    .redes_sociais{
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .fa-instagram{
+        transform: scale(1.1);
+    
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 460px ){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+
+    .container_principal{
+        height: 300px;
+        width: 100%;
+        
+    }
+
+    .tex_1_p{
+       
+        
+        width: 70%;
+        margin-left: 70px;
+        
+    }
+
+    .out_color_2{
+        font-size: 23px;
+        width: 70%;
+        color: #FEE500;
+        margin-left: 70px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabelas{
+        padding: 30px;
+        margin:0px 10px 0px 10px;
+        justify-content:center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .informativos_1,.informativos_2,.informativos_3{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_segundario{
+        height: 700px;
+    }
+
+    .gotas{
+        
+        width: 1000px;
+        height: 200px;
+    }
+
+    .butoes{
+        height: 120px;
+        width: 200px;
+        display: flex;
+        margin: 0px 0px 0px 120px;
+    }
+
+
+    .container_terceiro{
+        background-color:#FFF9FD;
+        width: 100%;
+        height: 400px;
+        columns: 1;
+    }
+    
+    .chama_client{
+        font-size: 14px;
+    }
+    
+    .formulario{
+        margin: 90px 0px 0px 30px;
+       
+    }
+
+    .email_form_dig, .name_form_dig{
+        width: 300px;
+    }
+    
+
+    .imagem_e_mensagem{
+        display: none;
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .container_finale{
+        
+        height: 550px;
+        
+    }
+    
+    
+    .navegacao_finale{
+        top: 300px;
+        display: flex;
+        margin: 70px 120px 120px 40px;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav_footer, .nav-list_footer, .linha, .line{
+        list-style: none;
+        text-decoration: none;
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .button_whastapp_2{
+        padding: 3px;
+        background-color: rgb(35, 187, 35);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 17px;
+        color: #493841;
+    }
+    
+    .form_pagamentos, .form_card{
+        font-size: 17px;
+        color: #fff;
+        left: 0;
+    }
+    
+    .cartoes{
+        width: 250px;
+    }
+    
+    .redes_sociais{
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .fa-instagram{
+        transform: scale(1.1);
+    
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 360px ){
+    .Logo_comp{
+        display: none;
+    }
+    
+    .logo_mobile{
+        display: block;
+    }
+    
+    .hamburger{
+        display: block;
+        z-index: 1;
+    }
+    
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: #ffbaf5;
+        clip-path: circle(50px at 90% -15%);
+        transition: 3s ease-out;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    .nav-list a{
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+        
+    }
+    
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+    
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+    
+    
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events:all;
+    }
+
+    
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 30px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    
+    .nav.active .hamburger::before{
+        transform: rotate(135deg);
+        top: 7px;
+    }
+    
+    .nav.active .hamburger::after{
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+
+
+
+    .container_principal{
+        height: 350px;
+        width: 100%;
+        
+    }
+
+    .tex_1_p{
+       
+        
+        width: 70%;
+        margin-left: 50px;
+        
+    }
+
+    .out_color_2{
+        font-size: 23px;
+        width: 70%;
+        color: #FEE500;
+        margin-left: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabelas{
+        padding: 30px;
+        margin:0px 10px 0px 10px;
+        justify-content:center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .informativos_1,.informativos_2,.informativos_3{
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_segundario{
+        height: 700px;
+    }
+
+    .gotas{
+        
+        width: 1000px;
+        height: 200px;
+    }
+
+    .butoes{
+        height: 120px;
+        width: 200px;
+        display: flex;
+        margin: 0px 0px 0px 75px;
+    }
+
+
+    .container_terceiro{
+        background-color:#FFF9FD;
+        width: 100%;
+        height: 400px;
+        columns: 1;
+    }
+    
+    .chama_client{
+        font-size: 14px;
+    }
+    
+    .formulario{
+        margin: 90px 0px 0px 20px;
+       
+    }
+
+    .email_form_dig, .name_form_dig{
+        width: 250px;
+    }
+    
+
+    .imagem_e_mensagem{
+        display: none;
+    }
+
+    .bandeira{
+        display: none;
+    }
+
+    .container_finale{
+        
+        height: 550px;
+        
+    }
+    
+    
+    .navegacao_finale{
+        top: 300px;
+        display: flex;
+        margin: 70px 120px 120px 40px;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav_footer, .nav-list_footer, .linha, .line{
+        list-style: none;
+        text-decoration: none;
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .button_whastapp_2{
+        padding: 3px;
+        background-color: rgb(35, 187, 35);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 17px;
+        color: #493841;
+    }
+    
+    .form_pagamentos, .form_card{
+        font-size: 17px;
+        color: #fff;
+        left: 0;
+    }
+    
+    .cartoes{
+        width: 250px;
+    }
+    
+    .redes_sociais{
+        font-size: 17px;
+        color: #fff;
+    }
+    
+    .fa-instagram{
+        transform: scale(1.1);
+    
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
