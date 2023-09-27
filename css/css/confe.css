@@ -674,15 +674,13 @@ li a:hover{
     }
 
 
-    .imagem_principal{
-        margin-left: 40px;
-        width: 400px;
+    .laco_rosa{
+        display: none;
     }
 
-
-    .tex_descricion{
-        margin-left: 90px;
-        font-size: 23px;
+    .conteudo_confeccao{
+        margin-left: 70px;
+        font-size: 18px;
     }
 }
 
@@ -764,16 +762,12 @@ li a:hover{
         top: 10px;
     }
 
-
-
-    .imagem_principal{
-        margin-left: 60px;
-        width: 250px;
+    .laco_rosa{
+        display: none;
     }
 
-
-    .tex_descricion{
+    .conteudo_confeccao{
         margin-left: 70px;
-        font-size: 21px;
+        font-size: 16px;
     }
 }

@@ -300,107 +300,6 @@ li a:hover{
 }
 
 
-.container_terceiro{
-    background-color:#FFF9FD;
-    width: 100%;
-    height: 400px;
-    columns: 2;
-}
-
-
-.formulario{
-    display: flex;
-    justify-content: center;
-    background-color: #ffcff0;
-    width: 500px;
-    height: 250px;
-    margin: 90px 0px 0px 90px;
-    border-radius: 20px;
-}
-
-form{
-    font-size: 18px;
-    color:#493841;
-    align-items: center;
-    text-align: center;
-    border: none;
-    outline: none;
-    position: relative;
-    top: 40px;
-
-}
-
-.chama_client{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 19px;
-    margin-bottom: 10px;
-    color: #785E6C;
-}
-
-.name_form{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
-
-
-.email_form{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
-
-
-.name_form_dig{
-    border: none;
-    outline: none;
-    width: 300px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-.email_form_dig{
-    border: none;
-    outline: none;
-    width: 320px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-
-.button_enviar{
-    padding: 5px;
-    width: 100px;
-    background-color: #B82899;
-    color: #fff;
-    border: none;
-    outline: none;
-    box-shadow: 5px 5px 10px rgba(167, 149, 149, 0.5);
-}
-
-.imagem_e_mensagem{
-    margin: 90px 0px 0px 30px;
-}
-
-.image_girl{
-    width: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.mensagem_agradecimento{
-    color: #B82899;
-    width: 450px;
-    align-items: center;
-    text-align: center;
-    font-size: 20px;
-    position: relative;
-    bottom: 40px;
-}
-
 
 .container_finale{
     background-color:#FE00AD;
@@ -571,24 +470,7 @@ span{
         font-size: 14px;
     }
     
-    .formulario{
-        display: flex;
-        justify-content: center;
-        background-color: #ffcff0;
-        width: 90%;
-        height: 250px;
-        margin: 90px 0px 0px 30px;
-        border-radius: 20px;
-    }
-
-    .email_form_dig, .name_form_dig{
-        width: 300px;
-    }
     
-
-    .imagem_e_mensagem{
-        display: block;
-    }
 
     .bandeira{
         display: none;
@@ -698,30 +580,7 @@ span{
         font-size: 14px;
     }
     
-    .formulario{
-        display: flex;
-        justify-content: center;
-        background-color: #ffcff0;
-        width: 90%;
-        height: 250px;
-        margin: 90px 0px 0px 20px;
-        border-radius: 20px;
-    }
-
-    .email_form_dig, .name_form_dig{
-        width: 300px;
-    }
     
-
-    .imagem_e_mensagem{
-        display: block;
-    }
-
-    .mensagem_agradecimento{
-        width: 410px;
-       
-
-    }
 
     .bandeira{
         display: none;
@@ -891,25 +750,7 @@ span{
         font-size: 14px;
     }
     
-    .formulario{
-        display: flex;
-        justify-content: center;
-        background-color: #ffcff0;
-        width: 90%;
-        height: 250px;
-        margin: 90px 0px 0px 40px;
-        border-radius: 20px;
-    }
-
-    .email_form_dig, .name_form_dig{
-        width: 300px;
-    }
     
-
-    .imagem_e_mensagem{
-        display: none;
-    }
-
     .bandeira{
         display: none;
     }
@@ -1090,24 +931,7 @@ span{
         font-size: 14px;
     }
     
-    .formulario{
-        display: flex;
-        justify-content: center;
-        background-color: #ffcff0;
-        width: 90%;
-        height: 250px;
-        margin: 90px 0px 0px 40px;
-        border-radius: 20px;
-    }
-
-    .email_form_dig, .name_form_dig{
-        width: 300px;
-    }
     
-
-    .imagem_e_mensagem{
-        display: none;
-    }
 
     .bandeira{
         display: none;
@@ -1325,25 +1149,7 @@ span{
         font-size: 14px;
     }
     
-    .formulario{
-        display: flex;
-        justify-content: center;
-        background-color: #ffcff0;
-        width: 90%;
-        height: 250px;
-        margin: 90px 0px 0px 30px;
-        border-radius: 20px;
-    }
-
-    .email_form_dig, .name_form_dig{
-        width: 300px;
-    }
     
-
-    .imagem_e_mensagem{
-        display: none;
-    }
-
     .bandeira{
         display: none;
     }
@@ -1553,20 +1359,7 @@ span{
         font-size: 14px;
     }
     
-    .formulario{
-        margin: 90px 0px 0px 30px;
-       
-    }
-
-    .email_form_dig, .name_form_dig{
-        width: 300px;
-    }
     
-
-    .imagem_e_mensagem{
-        display: none;
-    }
-
     .bandeira{
         display: none;
     }
@@ -1774,19 +1567,7 @@ span{
         font-size: 14px;
     }
     
-    .formulario{
-        margin: 90px 0px 0px 20px;
-       
-    }
-
-    .email_form_dig, .name_form_dig{
-        width: 250px;
-    }
     
-
-    .imagem_e_mensagem{
-        display: none;
-    }
 
     .bandeira{
         display: none;
